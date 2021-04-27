@@ -4,9 +4,9 @@
   <a href="https://opensource.org/licenses/MIT" target="_blank">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
   </a>
-  <img src="https://img.shields.io/npm/dt/nh-api">
-  <img src="https://img.shields.io/tokei/lines/github/barthofu/nh-api">
-  <img src="https://img.shields.io/npm/v/nh-api">
+  <img src="https://img.shields.io/npm/dt/nhentai-node-api">
+  <img src="https://img.shields.io/tokei/lines/github/barthofu/nhentai-node-api">
+  <img src="https://img.shields.io/npm/v/nhentai-node-api">
 </p>
 
 > #### An unofficial API for [nHentai](https://nhentai.net).
@@ -28,12 +28,12 @@
 
 ## Installation
 ```
-$ npm install nh-api
+$ npm install nhentai-node-api
 ```
 
 ## Usage
 ```js
-const nhentai = require('nh-api')
+const nhentai = require('nhentai-node-api')
 
 ```
 
