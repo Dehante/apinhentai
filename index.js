@@ -1,6 +1,3 @@
-const request = require('superagent')
-const cheerio = require('cheerio')
-
 module.exports = {
 
     getDoujin: require('./lib/getDoujin'),
