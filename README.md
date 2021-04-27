@@ -43,7 +43,7 @@ const nhentai = require('nh-api')
 
 | Parameter | Type | Default | Description |
 | --- | --- | --- | --- |
-| query | string | - | Terms of the search |
+| query | string |  | Terms of the search |
 | sort | string | `popular` | Sort order of the search. Can be either: `popular`, `popular-week`, `popular-today` or `date` |
 | page | number | `1` | Selects the page of the results  |
 
@@ -64,7 +64,7 @@ nhentai.search('metamorphosis', 'popular-week', 1)
 
 | Parameter | Type | Default | Description |
 | --- | --- | --- | --- |
-| identifier | string/number | - | Can be either a doujin **id** or the entire **url** |
+| identifier | string/number |  | Can be either a doujin **id** or the entire **url** |
 | simplified | boolean | `false` | Define if the returned object should be simplified a bit (count and link for elements in the `details` field are removed) |
 
 Usage example:
@@ -118,7 +118,7 @@ nhentai.getLatest() //will return the results of the first page as the 'page' pa
 
 | Parameter | Type | Default | Description |
 | --- | --- | --- | --- |
-| identifier | string/number | - | Can be either a doujin **id** or the entire **url** |
+| identifier | string/number |  | Can be either a doujin **id** or the entire **url** |
 
 Usage example:
 ```js
@@ -145,7 +145,8 @@ nhentai.exists(177013)
     title: String, //original title of the doujin
     language: String, //language of the doujin, can be either: english, japanese or chinese
     thumbnail: String, //url of the cover image
-  }
+  },
+  //etc
 ]
 
 ```
