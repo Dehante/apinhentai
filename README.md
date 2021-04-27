@@ -1,4 +1,4 @@
-<h1 align="center" font-weight="bold">nHentai API</h1>
+<h1 align="center" font-weight="bold">nHentai Node API</h1>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT" target="_blank">

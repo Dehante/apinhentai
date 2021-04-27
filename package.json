@@ -1,24 +1,12 @@
 {
+  "name": "nhentai-node-api",
   "author": {
     "name": "barthofu"
   },
-  "bugs": {
-    "url": "https://github.com/barthofu/nh-api/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.6",
-    "superagent": "^4.1.0"
-  },
+  "version": "1.0.0",
   "deprecated": false,
   "description": "nHentai wrapper for NodeJs",
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^5.2.0"
-  },
-  "homepage": "https://github.com/barthofu/nh-api#readme",
+  "license": "MIT",
   "keywords": [
     "nhentai",
     "api",
@@ -30,15 +18,28 @@
     "nodejs",
     "javascript"
   ],
-  "license": "MIT",
   "main": "index.js",
-  "name": "nh-api",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/barthofu/nh-api.git"
-  },
   "scripts": {
     "test": "node tests/index.test"
   },
-  "version": "1.0.0"
+  "bundleDependencies": false,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "superagent": "^4.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "homepage": "https://github.com/barthofu/nhentai-node-api#readme",
+  "bugs": {
+    "url": "https://github.com/barthofu/nhentai-node-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barthofu/nhentai-node-api.git"
+  }
+
 }
