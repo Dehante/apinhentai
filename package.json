@@ -3,7 +3,7 @@
   "author": {
     "name": "barthofu"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "deprecated": false,
   "description": "nHentai wrapper for NodeJs",
   "license": "MIT",
@@ -41,5 +41,4 @@
     "type": "git",
     "url": "git+https://github.com/barthofu/nhentai-node-api.git"
   }
-
 }
