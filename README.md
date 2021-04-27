@@ -164,6 +164,7 @@ nhentai.exists(177013)
     native: String //title in its native language (japanese most of the time)
   },
   language: String, //language of the doujin, can be either: english, japanese or chinese
+  cover: String, //image url of the cover
   details: { /*this section is a bit special. Each property correspond to a field underneath the title of the doujin on the website page. If the 'simplified' parameter of getDoujin() is set to true, it will just put strings in the array. But if it's set to false (by default tho), it'll populate the arrays with objects like this:
     {
       name: String, //the value itself
