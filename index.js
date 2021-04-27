@@ -4,6 +4,7 @@ module.exports = {
     getLatest: require('./lib/getLatest'),
     getPopular: require('./lib/getPopular'),
     search: require('./lib/search'),
-    exists: require('./lib/exists')
+    exists: require('./lib/exists'),
+    random: require('./lib/random')
     
 }
